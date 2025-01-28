@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+/* Voucher Container */
+.voucher-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Voucher Card */
+.voucher-card {
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Voucher Image Section */
+.voucher-image {
+    background: #000;
+    color: #0ff;
+    padding: 20px;
+    border-radius: 6px;
+    position: relative;
+    margin-bottom: 10px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Voucher Text Section */
+.voucher-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.voucher-amount {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.gifts {
+    width: 250px; 
+    height: 200px;
+    
+}
