@@ -1,0 +1,198 @@
+ /* Details of the body */
+ body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    margin-left: 125px;
+    top: 40px; 
+}
+
+.logo-image {
+    width: 350px; 
+    height: 150px;
+    
+}
+
+.fashion {
+    position: absolute;
+    top: 45px; 
+    left: 500px; 
+    text-align: left; 
+    color: black; 
+    padding: 1px;
+        
+}
+
+.brand-name {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.motto {
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+/* Login Section Styling */
+.login-section {
+    display: flex;
+    align-items: center; /* Align the text and image vertically */
+    gap: 10px; /* Space between the text and image */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center;
+    padding-right: 450px; 
+    position: fixed;
+    top: 90px;
+    right: 0;     
+        
+}
+
+.login-word {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+
+.login-image {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+}
+
+/* Cart Section Styling */
+.cart-section {
+    display: flex;
+    align-items: center; /* Align the text and image vertically */
+    gap: 10px; /* Space between the text and image */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center;
+    padding-right: 250px; 
+    position: fixed;
+    top: 90px;
+    right: 0;
+   
+}
+
+.cart-word {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+
+.cart-image {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+}
+
+
+/* Header Styling */
+.categories {
+    background-color: black;
+    color: white;
+    padding: 25px 2px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Front Page First Images */
+
+.first-images{
+    display: flex; 
+    padding: 0;   
+    margin-left: 125px;     
+    gap: 0;        
+    width: 1000px; 
+    height: 1111px;
+}
+    
+.first-images img {
+    display: block; 
+    margin: 0;      
+    padding: 0;     
+    
+}
+
+.second-images{
+    display: flex; 
+    padding: 0;    
+    margin-left: 125px;     
+    gap: 0;        
+}
+    
+.second-images img {
+    display: block; 
+    margin: 0;      
+    padding: 0;     
+    width: 654px; 
+    height: 1111px;
+}
+    
+
+/* New In Styling */
+.new-in {
+    background-color: black;
+    color: white;
+    padding: 25px 2px;
+    margin-top: 100px;    
+    
+}s
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+  }
+    
+  /* mouse over link */
+  a:hover {
+    color: grey;
+  }
+    
+  /* selected link */
+  a:active {
+    color: grey;
+  }
+
+
+
