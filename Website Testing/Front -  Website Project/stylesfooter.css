@@ -1,0 +1,76 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white(219, 172, 172);
+}
+
+
+nav li{
+    display: inline;
+    margin: 30px;
+}
+
+.image-grid{
+
+    width:auto;
+    margin: 500px; /*centers the layout*/
+    display: grid; /* Use Grid layout */
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    gap: 600px;; /* Space between images */
+    font-size: 100px
+
+}
+
+.image-grid img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    
+    
+    
+}
+.image-grid p{
+    margin: 10px; /* Space between image and text */
+    text-align: center;
+    
+}
+
+footer {
+    padding: 50px;
+    background-color: black; /* Light background for footer */
+    text-align: center;
+    color: white;
+    display:grid;
+    margin:0ch;  /*centers the layout*/
+}
+
+.footer-content {
+    display: inline; /* Use Flexbox for layout */
+    align-items:center; /* Center horizontally */
+}
+
+.footer-heading {
+    display: inline-flex; /* Make the heading behave like an inline element */
+    margin-bottom: auto; /* Add space below the heading */
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.footer-subpart {
+
+    flex-direction: column; /* Stack subpart items vertically */
+    gap: 10px; /* Add space between subpart items */
+
+}
+
+.footer-subpart p {
+    margin: auto; /* Remove margin around each paragraph */
+    font-size: 50px;
+    
+}
+
+div{
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    
+}
